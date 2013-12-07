@@ -39,6 +39,6 @@ elsif ENV['HEROKU'] || ENV['USE_ENV']
   end
 end
 
-Mongoid.allow_dynamic_fields = false
+# Mongoid.allow_dynamic_fields = false
 Mongoid.use_activesupport_time_zone = true
-Mongoid.identity_map_enabled = true
+# Mongoid.identity_map_enabled = true
