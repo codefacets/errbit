@@ -58,7 +58,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'jquery-rails' # '~> 2.1.4'
   s.add_dependency 'pjax_rails'
   s.add_dependency 'underscore-rails'
-  s.add_dependency 'turbo-sprockets-rails3'
+  # s.add_dependency 'turbo-sprockets-rails3'
 
   s.add_development_dependency 'rspec-rails'
   s.add_development_dependency 'webmock'
